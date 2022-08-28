@@ -1,0 +1,10 @@
+
+data:
+    name: wireframe_line
+model:
+    name: joint_pl_model
+train:
+    train_batch_size: 4
+    val_batch_size: 4
+    epochs: 35
+    seed: 42

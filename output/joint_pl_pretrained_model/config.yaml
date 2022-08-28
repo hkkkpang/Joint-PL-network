@@ -1,0 +1,9 @@
+data:
+  name: wireframe_line
+model:
+  name: KP2D_hg2_LB_rw25
+train:
+  train_batch_size: 4
+  val_batch_size: 4
+  epochs: 35
+  seed: 42

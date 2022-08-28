@@ -1,0 +1,11 @@
+numpy
+torch
+opencv-python
+omegaconf
+matplotlib
+seaborn
+Pillow
+torchvision
+scikit-image
+tqdm
+tensorboard
