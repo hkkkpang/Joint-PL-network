@@ -3,11 +3,11 @@
 This repository contains the implementation of the project: Joint-PL - Joint point and line detection and description. This project is conducted as ETH Zürich Master Semester Project under the supervision of 
 [Rémi Pautrat](https://github.com/rpautrat).
 
-Joint-PL is the first deep network for joint line and point detection and
+Joint-PL is the <b>first</b> deep network for joint line and point detection and
 description. In this work, we innovatively construct point and line
-descriptor based on the shared dense description map. The proposed model achieves a reasonable
-performance margin compared to the state-of-the-art with less inference
-time.  
+descriptor based on the <b>shared dense description map</b>. The proposed model achieves a <b>reasonable
+performance margin</b> compared to the state-of-the-art with <b>less inference
+time</b>.  
 
 ## Demos
 
