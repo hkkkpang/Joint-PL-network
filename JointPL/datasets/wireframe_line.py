@@ -17,8 +17,8 @@ class Wireframe_line(BaseDataset):
         'shape': [512, 512],
         'jittering': [0.5, 0.5, 0.2, 0.05],
         'train_path': os.path.join(DATA_PATH, 'wireframe1_datarota_3w/train'),
-        #'valid_path': os.path.join(DATA_PATH, 'wireframe1_datarota_3w/valid'),
-        'valid_path': '../assets/line_match_data',
+        'valid_path': os.path.join(DATA_PATH, 'wireframe1_datarota_3w/valid'),
+        #'valid_path': '../assets/line_match_data',  #change to this path, when you match lines
         'crop': False
     }
 

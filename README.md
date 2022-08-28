@@ -78,4 +78,4 @@ description file used in `JointPL/visualization/vis_line_match.py` by running `J
 ## Acknowledgments
 This work is supervised by [Rémi Pautrat](https://github.com/rpautrat). Sincere thanks to him for his help and guidance. The codes of model and
 evaluation parts are borrowed or modified from [KeyPointNet](https://github.com/TRI-ML/KP2D) and [F-Clip](https://github.com/Delay-Xili/F-Clip) works.
-Many thanks to their wonderful works and repos.
+Besides, the line matching part is based on the [SOLD²](https://github.com/cvg/SOLD2) work. Many thanks to their wonderful works and repos.

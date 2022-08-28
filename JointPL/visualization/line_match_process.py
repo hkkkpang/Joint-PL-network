@@ -1,22 +1,5 @@
-#!/usr/bin/env python3
-"""Train L-CNN
-Usage:
-    test.py [options] <yaml-config> <ckpt> <dataname> <datadir>
-    test.py (-h | --help )
+# Remember to modify the valid path in the /datasets/wireframe_line.py file!!!
 
-Arguments:
-   <yaml-config>                   Path to the yaml hyper-parameter file
-   <ckpt>                          Path to ckpt
-   <dataname>                      Dataset name
-   <datadir>                       Dataset dir
-
-Options:
-   -h --help                       Show this screen.
-   -d --devices <devices>          Comma seperated GPU devices [default: 0]
-   -i --identifier <identifier>    Folder identifier [default: default-lr]
-"""
-
-import os
 import random
 import numpy as np
 import torch
