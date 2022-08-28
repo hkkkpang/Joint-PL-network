@@ -1,20 +1,20 @@
-# Joint-PL - Joint point and line detection and description
+# Joint-PL: Joint point and line detection and description
 
-This repository contains the implementation of the project: Joint-PL - Joint point and line detection and description. This project is conducted as ETH Zürich Master Semester Project under the supervision of 
+This repository contains the PyTorch implementation of the project: Joint-PL - Joint point and line detection and description. This project is conducted as ETH Zürich Master Semester Project under the supervision of 
 [Rémi Pautrat](https://github.com/rpautrat).
 
 Joint-PL is the <b>first</b> deep network for joint line and point detection and
 description. In this work, we innovatively construct point and line
 descriptor based on the <b>shared dense description map</b>. The proposed model achieves a <b>reasonable
-performance margin</b> compared to the state-of-the-art with <b>less inference
+performance</b> compared to the state-of-the-art with <b>less inference
 time</b>.  
 
 ## Demos
 
-Point detection, line detection and matching:
+Points detection, lines detection and matching:
 ![demo](output/figure/demo1.png)
 
-Line matching under extreme viewpoint and scale changes:
+Lines matching under extreme viewpoint and scale changes:
 ![demo](output/figure/demo2.png)
 
 ## Usage
@@ -40,7 +40,7 @@ We used the processed [Wireframe dataset](https://github.com/huangkuns/wireframe
 In order to check the generalization ability of our model, we also test it on [HPatches dataset](https://github.com/hpatches/hpatches-dataset) and processed [York Urban dataset](https://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/) in the [F-Clip work](https://github.com/Delay-Xili/F-Clip). You
 can download them separately by [link1](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz) and [link2](https://drive.google.com/file/d/1lapVcNtw7SNzH8cpHj2H6tIzyAom4MJe/view?usp=sharing).
 
-### Training your own model
+### Training
 
 To train a model execute:
 ```bash
